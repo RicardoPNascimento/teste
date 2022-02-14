@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="otis">
+    <div class="grid">
+        <div>
+            <h3>ADD ITEM</h3>
+            <input type="text" placeholder="type here" id="adiciona">
+            <button id="botaoAdicionar" onclick="adicionar()" class="adicionar">add</button>
+            <button id="botaoSalvar" onclick="salvar()">Salvar</button>
+            <button id="botaoCancelar" onclick="cancelar()">Cancelar</button>
+        </div>
+        <h4>TODO</h4>
+        <div>
+            <ul id="itensAfazer">
+            </ul>
+        </div>
+        <h4>COMPLETED</h4>
+        <div>
+           <ul id="itensFeitos">
+           </ul>
+        </div>
+        <!-- <h4>teste</h4>
+        <div>
+           <ul id="teste">
+           </ul>
+        </div> -->
+    
+    
+    
+    </div>   
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- <li><input type="checkbox" class="junto">Fazer tarefa 2
+                <button>editar</button> <button>excluir</button>
+    </li> -->

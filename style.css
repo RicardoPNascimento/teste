@@ -1,0 +1,29 @@
+#otis li {
+    list-style: none;
+}
+
+otis{
+ text-align: center;}
+ 
+#botaoCancelar,#botaoSalvar{
+    display: none;
+}
+.adicionar{
+background-color: #caf;
+border-radius: 10px;
+}
+body{
+    font-family: arial;
+}
+.grid{
+    display: grid;
+    place-content:center;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#itensFeitos{
+    text-decoration: line-through;
+
+}
